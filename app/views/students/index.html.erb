@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>..:: Students ::..</title>
+    </head>
+    <body>
+        <ul>
+            <li>HOME</li>
+            <li>ABOUT</li>
+            <li>CONTACT</li>
+        </ul>
+        <h1>Students list</h1>
+        <ul>
+            <%@student.each do |student|%>
+                <li><%= student.first_name %></li>
+            <%end%>
+        </ul>
+    </body>
+</html>
