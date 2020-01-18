@@ -1,5 +1,5 @@
-<div> 
-    <% @students.all.each do |student| %>
-    <%= student.to_s %>
-    <% end %>
-</div>
+<li>
+   <% @students.each do |student| %>
+    <div><%= student.to_s %></div>
+  <% end %>
+</li>
